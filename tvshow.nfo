@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+    <title>Youtube</title>
+    <showtitle>Youtube</showtitle>
+    <plot>Viral videos from Youtube</plot>
+    <episodeguide>
+        <url cache="275959.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/275959/all/en.zip</url>
+    </episodeguide>
+    <id>275959</id>
+</tvshow>
