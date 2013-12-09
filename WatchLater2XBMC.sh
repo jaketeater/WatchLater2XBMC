@@ -76,7 +76,7 @@ do
 	cd $TARGET_PATH 
 
 	#Download the video with youtube-dl, prefering formats in this order: 37/22/18
-#	youtube-dl -f 37/22/18 -o "$(echo "S${YEAR}E${DAY_OF_YEAR}-VID-$VID.mp4")" $VID
+	youtube-dl -f 37/22/18 -o "$(echo "S${YEAR}E${DAY_OF_YEAR}-VID-$VID.mp4")" $VID
 
 	#Create the .nfo file for XBMC to scrape
 	echo "$INFO" >> "$(echo "$TARGET_PATH/S${YEAR}E${DAY_OF_YEAR}-VID-$VID.nfo")"
